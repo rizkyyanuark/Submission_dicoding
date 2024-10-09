@@ -14,7 +14,7 @@ st.sidebar.title(
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("https://raw.githubusercontent.com/rizkyyanuark/Submission/refs/heads/main/Dashboard/ecommerce.csv", usecols=[
+    df = pd.read_csv("https://raw.githubusercontent.com/rizkyyanuark/Submission_dicoding/refs/heads/main/Dashboard/ecommerce.csv?token=GHSAT0AAAAAACS2JU53C2U6RFGJHYT4DQ7QZYGK7JQ", usecols=[
         "order_purchase_timestamp", "order_delivered_customer_date", "order_delivered_carrier_date",
         "review_score", "product_category_name", "customer_unique_id", "payment_value", "customer_state",
         "geolocation_lat", "geolocation_lng"
