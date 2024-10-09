@@ -1,0 +1,6 @@
+streamlit==1.39.0
+pandas==2.0.3
+plotly==5.24.1
+folium==0.17.0
+numpy==1.24.2
+setuptools>=58.0.0
